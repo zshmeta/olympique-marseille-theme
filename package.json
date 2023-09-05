@@ -1,0 +1,51 @@
+{
+  "name": "olympique-de-marseille",
+  "displayName": "Olympique de Marseille",
+  "version": "1.3.0",
+  "publisher": "zshmeta",
+  "description": "A Theme For the Team Olympique de Marseille",
+  "author": {
+    "name": "Belka Hedia"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "om.png",
+  "keywords": [
+    "Theme",
+    "Light Theme",
+    "Customize",
+    "Color Theme",
+    "Color",
+    "Colors",
+    "Light Theme",
+    "Light",
+    "Custom",
+    "Custom Theme",
+    "Custom Color Theme",
+    "Custom Colors",
+    "Custom Light Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "olympique-de-marseille-away",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Olympique-de-Marseille-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zshmeta/olympique-de-marseille-theme/",
+    "email": "zshmeta@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zshmeta/olympique-de-marseille-theme.git"
+  },
+  "homepage": "https://github.com/zshmeta/olympique-de-marseille-theme"
+}
