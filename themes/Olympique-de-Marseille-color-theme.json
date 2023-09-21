@@ -2,30 +2,47 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Olympique de Marseille",
   "colors": {
+    "editor.background": "#F7E7A7",
+    "editor.foreground": "#0c2340",
+    "editor.selectionBackground": "#7A5A0E83",
+    "editor.lineHighlightBackground": "#DFC971",
+    "editorGutter.background": "#0c2340",
+    "editorLineNumber.foreground": "#f9a828",
+    "editorIndentGuide.background": "#8A7317",
+    "editorWhitespace.foreground": "#f9a828",
+    "editor.lineHighlightBackground": "#F7E7A7",
+    "editorLink.activeForeground": "#0c2340",
+    "editorError.foreground": "#6A0483",
+    "editorWarning.foreground": "#F90483", 
     "activityBar.background": "#0c2340",
     "activityBar.foreground": "#f9a828",
-    "activityBarBadge.background": "#F7E7A7",
-    "activityBarBadge.foreground": "#F7E7A7",
-    "sideBar.background": "#F7E7A7",
+    "activityBar.background": "#0c2340",
+    "activityBar.foreground": "#f9a828",
+    "activityBarBadge.background": "#866D09BB",
+    "activityBarBadge.foreground": "#0c2340",
+    "sideBar.background": "#A58B227C",
     "sideBar.foreground": "#0c2340",
     "sideBar.border": "#1e88e5",
+    "sideBarTitle.foreground": "#0c2340",
     "sideBarTitle.foreground": "#0c2340",
     "sideBarSectionHeader.background": "#F7E7A7",
     "sideBarSectionHeader.foreground": "#0c2340",
     "list.hoverBackground": "#1e88e5",
     "list.inactiveSelectionBackground": "#1e88e5",
     "list.activeSelectionBackground": "#0c2340",
-    "list.activeSelectionForeground": "#F7E7A7",
+    "list.activeSelectionForeground": "#79661BBE",
     "list.inactiveSelectionForeground": "#0c2340",
-    "list.highlightForeground": "#F7E7A7",
-    "scrollbarSlider.background": "#F7E7A7",
+    "list.highlightForeground": "#20c2340",
+    "scrollbarSlider.background": "#8571238F",
+    "scrollbarSlider.activeBackground": "#0c2340",
+    "scrollbarSlider.background": "#857123A2",
     "scrollbarSlider.activeBackground": "#0c2340",
     "scrollbarSlider.hoverBackground": "#1e88e5",
     "tab.activeBackground": "#0c2340",
     "tab.inactiveBackground": "#1e88e5",
     "tab.activeBorder": "#1e88e5",
     "tab.border": "#1e88e5",
-    "tab.activeForeground": "#F7E7A7",
+    "tab.activeForeground": "#85701C",
     "tab.inactiveForeground": "#0c2340",
     "statusBar.background": "#0c2340",
     "statusBar.foreground": "#f9a828",
@@ -37,7 +54,7 @@
     "button.background": "#0c2340",
     "button.foreground": "#f9a234",
     "button.hoverBackground": "#1e88e5",
-    "dropdown.background": "#F7E7A7",
+    "dropdown.background": "#9B8220",
     "dropdown.border": "#1e88e5",
     "input.background": "#F7E7A7",
     "input.border": "#1e88e5",
@@ -49,14 +66,14 @@
     "editor.lineHighlightBackground": "#F7E7A7",
     "editorGutter.background": "#0c2340",
     "editorLineNumber.foreground": "#f9a234",
-    "editorIndentGuide.background": "#F7E7A7",
+    "editorIndentGuide.background": "#f9a234",
     "editorWhitespace.foreground": "#f9a234",
-    "editor.selectionBackground": "#F7E7A7",
+    "editor.selectionBackground": "#998535",
     "editor.selectionHighlightBackground": "#0c2340",
     "editor.wordHighlightBackground": "#0c2340",
     "editor.wordHighlightStrongBackground": "#0c2340",
     "editor.findMatchBackground": "#0c2340",
-    "editor.findMatchHighlightBackground": "#F7E7A7",
+    "editor.findMatchHighlightBackground": "#9b8220",
     "editor.lineHighlightBackground": "#0c2340",
     "editorBracketMatch.background": "#0c2340",
     "editorBracketMatch.border": "#1e88e5",
@@ -73,12 +90,12 @@
     "editorSuggestWidget.selectedBackground": "#0c2340",
     "peekView.border": "#1e88e5",
     "peekViewEditor.background": "#F7E7A7",
-    "peekViewEditorGutter.background": "#F7E7A7",
+    "peekViewEditorGutter.background": "#9B8220",
     "peekViewResult.fileForeground": "#f9a234",
     "peekViewResult.lineForeground": "#f9a234",
     "peekViewResult.matchHighlightBackground": "#F7E7A7",
     "peekViewResult.selectionBackground": "#0c2340",
-    "peekViewResult.selectionForeground": "#f9a234",
+    "peekViewResult.selectionForeground": "#F99949",
     "peekViewTitle.background": "#F7E7A7",
     "peekViewTitleDescription.foreground": "#f9a234",
     "peekViewTitleLabel.foreground": "#f9a234",
@@ -148,7 +165,7 @@
   "name": "Keyword, Storage",
   "scope": ["keyword", "storage.type", "storage.modifier"],
   "settings": {
-    "foreground": "#ebdbb2"
+    "foreground": "#F99949"
   }
 },
 {
@@ -158,7 +175,7 @@
     "foreground": "#FF"
   }
 },
-  "tokenColors": [{
+  {
     "name": "Comment",
     "scope": ["comment", "punctuation.definition.comment"],
     "settings": {
@@ -175,7 +192,7 @@
     "name": "Colors",
     "scope": ["constant.other.color"],
     "settings": {
-      "foreground": "#ffff"
+      "foreground": "#F99949"
     }
   },{
     "name": "Invalid",
@@ -224,7 +241,7 @@
     "scope": ["constant.numeric", "constant.language", "support.constant", "constant.character", "constant.escape",
             "variable.parameter", "keyword.other.unit", "keyword.other"],
     "settings": {
-      "foreground": "#FFFF"
+      "foreground": "#F99949"
     }
   },{
     "name": "String, Symbols, Inherited Class, Markup Heading",
@@ -255,6 +272,7 @@
     "scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
     "settings": {
       "foreground": "#1e88e5"
+    }
     },{
       "name": "Decorators",
       "scope": ["tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js"],
