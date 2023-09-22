@@ -299,7 +299,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "fontStyle": "italic bold",
+        "fontStyle": "italic",
         "foreground": "#DAA000"
       }
     },
